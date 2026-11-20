@@ -1,0 +1,12 @@
+{
+  "properties": [
+    { "name": "app.upload-dir", "type": "java.lang.String", "description": "Folder where uploaded photos are saved." },
+    { "name": "app.mail.from", "type": "java.lang.String", "description": "From address used in e-mails." },
+    { "name": "app.base-url", "type": "java.lang.String", "description": "Base URL used for links inside e-mails." },
+    { "name": "app.admin.name", "type": "java.lang.String", "description": "Name of an admin created from configuration (optional)." },
+    { "name": "app.admin.email", "type": "java.lang.String", "description": "E-mail of an admin created from configuration (optional)." },
+    { "name": "app.admin.password", "type": "java.lang.String", "description": "Password of an admin created from configuration (optional)." },
+    { "name": "app.setup.code", "type": "java.lang.String", "description": "One-time code needed on the first-run /setup page." },
+    { "name": "app.setup.require-code", "type": "java.lang.Boolean", "defaultValue": true, "description": "If false, the first visitor of /setup becomes admin without a code." }
+  ]
+}
